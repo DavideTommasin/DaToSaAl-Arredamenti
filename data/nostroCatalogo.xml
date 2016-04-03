@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- l'istanza fa riferminto allo schema schemaCatalogo.xml -->
+<catalogo>
+	<acconciatori>
+		<oggetto id="0" in_vista="true">
+				<nome>Specchio Tommi</nome>
+				<tipo>Posti Lavoro</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">60</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Vetro Lavorato</nome>
+					<nome id_materiale="1">Plastica</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>	
+				<colore>Blu e nero</colore>
+				<prezzo valuta="euro">15</prezzo>
+				<descrizione>Specchio con bordo in plastica blu e nero.</descrizione>
+				<immagine alt="Specchio blu e nero">public_html/images/flash.jpg</immagine>
+		</oggetto>
+		<oggetto id="1" in_vista="false">
+				<nome>Tavolo Albi</nome>
+				<tipo>Reception</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">60</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Vetro Lavorato</nome>
+					<nome id_materiale="1">Legno</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">350.50</prezzo>
+				<descrizione>Tavolo da attesa per un acconciatore.</descrizione>
+				<immagine alt="Tavolo da attesa">public_html/images/frontwhite.jpg</immagine>
+		</oggetto>
+		<oggetto id="2" in_vista="true">
+				<nome>Lavaggio Santi</nome>
+				<tipo>Lavaggi</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">60</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Ceramica</nome>
+					<nome id_materiale="1">Pelle</nome>
+					<nome id_materiale="2">Plastica</nome>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>					
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">250</prezzo>
+				<descrizione>Spettacolare sedia da lavaggio di ultima generazione.</descrizione>
+				<immagine alt="Sedia da lavaggio bianca">public_html/images/wash_2090.jpg</immagine>
+		</oggetto>
+		<oggetto id="3" in_vista="false">
+				<nome>Mobili Tomma</nome>
+				<tipo>Mobili-Service</tipo>			
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">60</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Legno</nome>
+					<nome id_materiale="1">Vetro</nome>
+					<nome id_materiale="2">Plastica</nome>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>
+				<colore>Legno</colore>
+				<prezzo valuta="euro">150</prezzo>
+				<descrizione>Set di mobili con molti cassetti.</descrizione>
+				<immagine alt="Mobili con cassetti in legno">public_html/images/m_wood.jpg</immagine>
+		</oggetto>
+		<oggetto id="4" in_vista="false">
+				<nome>Tavolini Santi</nome>
+				<tipo>Accessori</tipo>				
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">60</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Plastica</nome>
+					<nome id_materiale="1"/>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>
+				<colore>Nero</colore>
+				<prezzo valuta="euro">150</prezzo>
+				<descrizione>Comodi tavoli da lavoro portatili per tenere gli accessori.</descrizione>
+				<immagine alt="Piccoli tavoli neri">public_html/images/f21.jpg</immagine>
+		</oggetto>
+		
+		
+		
+		
+		
+		
+		
+</acconciatori>
+	
+	<estetiche>
+		<oggetto id="5" in_vista="false">
+				<nome>Lettino Zeta</nome>
+				<tipo>Lettini</tipo>
+				<dimensione>
+					<altezza um="cm">110</altezza>
+					<lunghezza um="cm">220</lunghezza>
+					<larghezza um="cm">80</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Legno</nome>		
+					<nome id_materiale="1">Pelle</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">70</prezzo>
+				<descrizione>Comodissimi lettini rifiniti il pelle con gambe in legno.</descrizione>
+				<immagine alt="lettini bianchi">public_html/images/44.jpg</immagine>
+		</oggetto>
+		<oggetto id="6" in_vista="false">
+				<nome>Sauna Nico</nome>
+				<tipo>SPA</tipo>
+				<dimensione>
+					<altezza um="cm">210</altezza>
+					<lunghezza um="cm">250</lunghezza>
+					<larghezza um="cm">250</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Legno</nome>
+					<nome id_materiale="1"/>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">1200</prezzo>
+				<descrizione>Sauna finlandese in legno.</descrizione>
+				<immagine alt="Sauna in legno">public_html/images/saunafinlandese.jpg</immagine>
+		</oggetto>
+		<oggetto id="7" in_vista="true">
+				<nome>Banco Tomma</nome>
+				<tipo>Reception</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">250</lunghezza>
+					<larghezza um="cm">70</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Vetro</nome>
+					<nome id_materiale="1">Ferro</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>					
+				</materiale>
+				<colore>Verde acqua</colore>
+				<prezzo valuta="euro">900</prezzo>
+				<descrizione>Banco da reception di realizzaione artigianale. Costruito con pannelli di vetro sostenuti da aste di ferro.</descrizione>
+				<immagine alt="Banco da reception verde acqua">public_html/images/class.jpg</immagine>
+		</oggetto>
+		<oggetto id="8" in_vista="true">
+				<nome>Poltrona Giudo</nome>
+				<tipo>Attesa</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">70</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Pelle</nome>
+					<nome id_materiale="1">Ferro</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>					
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">120</prezzo>
+				<descrizione>Comede poltrone in pelle, l'ideale per un'attesa rilassante.</descrizione>
+				<immagine alt="Poltrone in pelle bianca">public_html/images/48.jpg</immagine>
+		</oggetto>
+		<oggetto id="9" in_vista="false">
+				<nome>Sgabelli Albi</nome>
+				<tipo>Accessori</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">70</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Pelle</nome>
+					<nome id_materiale="1">Ferro</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">90</prezzo>
+				<descrizione>Set di sgabelli da lavoro realizzati in pelle bianca.</descrizione>
+				<immagine alt="sgabelli bianchi">public_html/images/140.jpg</immagine>
+		</oggetto>
+		<oggetto id="10" in_vista="false">
+				<nome>Comodi Santi</nome>
+				<tipo>Mobili-Service</tipo>
+				<dimensione>
+					<altezza um="cm">120</altezza>
+					<lunghezza um="cm">80</lunghezza>
+					<larghezza um="cm">70</larghezza>
+				</dimensione>
+				<materiale>
+					<nome id_materiale="0">Plasica</nome>
+					<nome id_materiale="1">Ferro</nome>
+					<nome id_materiale="2"/>
+					<nome id_materiale="3"/>
+					<nome id_materiale="4"/>					
+				</materiale>
+				<colore>Bianco</colore>
+				<prezzo valuta="euro">90</prezzo>
+				<descrizione>Comodini da lavoro mobili, realizzati in ferro e plastica.</descrizione>
+				<immagine alt="Comodini bianchi">public_html/images/roller8.jpg</immagine>
+		</oggetto>
+			
+
+	</estetiche>
+</catalogo>

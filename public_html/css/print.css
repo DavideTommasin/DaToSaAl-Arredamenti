@@ -1,0 +1,63 @@
+html,body{ margin: 0; padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size:12pt;
+    background-color:#fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-variant: small-caps;
+}
+
+a{
+    color:#520;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#header{
+    padding:0.1em 1.5em 0.5em;
+}
+
+#logo{ 
+    display:none;
+}
+
+img{
+	display:none;
+}
+
+#mainmenu{
+    display:none;
+}
+
+
+#corpo{
+    padding:0.1em 1.5em 0.5em;
+}
+
+.bottom{
+    display:none;
+}
+
+a:link:after, a:visited:after {
+	content: " [ attr(href) ] ";
+	font-size:90%;
+}
+
+
+#salta a, #salta a:hover, #salta a:visited  
+ { 
+ position:absolute; 
+ left:0px; 
+ top:-500px; 
+ width:1px; 
+ height:1px; 
+ overflow:hidden;
+ } 
+  
+ #salta a:active 
+ { 
+ position:static; 
+ width:auto; 
+ height:auto; 
+ } 

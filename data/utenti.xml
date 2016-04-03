@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- l'istanza fa riferminto allo schema schemaUtenti.xml -->
+
+
+<utenti>
+	<utente>
+		<persona>
+			<nome>Ombretta</nome>
+			<cognome>Gaggi</cognome>
+		</persona>
+			<username>admin</username>
+			<password>123</password>
+	</utente>
+	<utente>
+		<persona>
+			<nome>Davide</nome>
+			<cognome>Tommasin</cognome>
+		</persona>
+			<username>dtommasi</username>
+			<password>123</password>
+	</utente>
+</utenti>

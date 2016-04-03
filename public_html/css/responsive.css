@@ -1,0 +1,304 @@
+
+@media screen and (max-width: 1024px){
+	.main{width:100%;}
+}
+
+@media screen and (max-width: 768px){
+    #site-title a{
+		font-size:25px;
+		margin-left:10px;
+	}
+	
+    #mainmenu{display:none;}
+	
+	
+    #mainmenu ul li{
+    	float: none;
+    }
+
+    .btn-responsive-menu{display:block;}
+	
+	#mainmenu {background:none}
+
+	
+	#mainmenu ul{
+		margin: -4.3% 0% 0% 0%;
+		width: 96%;
+	}
+
+	#mainmenu>ul>li:hover>ul{
+		background: none;
+		display: block;
+		position: relative;
+		padding: 0px 0px 0px 0px;
+    	margin: 0% 0% 0% 34%;
+    	width: 30%;
+	    text-align: center;
+	}
+	
+	#mainmenu a{
+		border-style:solid;
+		border-width:1px;
+	}
+	
+	#content{padding-top: 0;}
+
+	.modulo {
+	    width: 40%;
+	    margin: 1% 5%;
+	}
+	
+	.modulo:nth-child(3n+1){margin-left: 5%;}
+	
+	.modulo:nth-child(3n){margin-right: 5%;}
+	
+	#header h1{
+		font-size: 2.4em;
+		font-variant: small-caps;
+		padding: 2.2em 0em 0.3em 0em;
+	}
+	
+	 h2{font-size: 2.4em;}
+	 
+	 #list-categorie>li>a {font-size: 2em;}
+
+	#freccia a{display: block}
+}
+
+@media screen and (max-width: 520px){
+	
+	#site-title a{
+		font-size:25px;
+		margin-left:10px;
+	}
+	
+    #mainmenu{display:none;}
+	
+    #mainmenu ul li{float: none;}
+	
+    .btn-responsive-menu{
+		display:block;
+		top: 8px;
+	}
+	
+	#mainmenu {background:none}
+	
+	#content{padding-top: 0;}
+	
+	.modulo {
+	    width: 60%;
+	    margin: 2% 20%;
+	}
+	
+	  .modulo:nth-child(3n+1){margin-left: 20%;}
+	
+	 .modulo:nth-child(3n){margin-right: 20%;}
+	
+	#header h1{
+		font-size: 2.2em;
+		font-variant: small-caps;
+		padding: 1.7em 0em 0.3em 0em;
+	}
+	
+	h2{font-size: 2.2em;}
+	
+	#list-categorie>li>a {font-size: 1.8em;}
+
+	.materiali{
+		float:none;
+	    margin: 0% 0% 0% 0%;
+	}
+
+	.dimensioni{
+		float:none;
+	    margin: -17% 0% 0% 28%;
+	}
+
+	.prezzo{
+		float:none;
+	    margin: 0% 0% 0% 0%;
+	}
+	.colore {
+	 	float:none;
+	    margin: -8% 0% 0% 28%;
+	}
+
+	#formRegistrazione{
+	    width: 100%;
+	    margin: 10% 0% 0% 0%;
+	    padding: 3% 0% 4% 28%;
+	}
+
+	#loginForm {
+	    width: 100%;
+	    margin: 10% 0% 0% 0%;
+	    padding: 3% 0% 4% 28%;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	
+	#site-title a{
+		font-size:25px;
+		margin-left:10px;
+	}
+	
+    #mainmenu{display:none;}
+	
+    #mainmenu ul li{float: none;}
+	
+    .btn-responsive-menu{
+		display:block;
+		top: 6px;
+	}
+	
+	#mainmenu {background:none}
+
+	#mainmenu>ul>li:hover>ul{
+		background: none;
+		display: block;
+		position: relative;
+		padding: 0px 0px 0px 0px;
+    	margin: 0% 0% 0% 24%;
+    	width: 50%;
+	    text-align: center;
+	}
+	
+	#content{padding-top: 0;}
+	
+	  .modulo {
+	    width: 60%;
+	    margin: 2% 20%;
+	}
+	
+	  .modulo:nth-child(3n+1){margin-left: 20%;}
+	
+	  .modulo:nth-child(3n){margin-right: 20%;}
+
+	#headerText{padding-left:0}
+	
+	#header h1{
+		font-size: 1.9em;
+		font-variant: small-caps;
+		padding: 1.7em 0em 0em 0em;
+	}
+	
+	h2{font-size: 1.9em;}
+	
+	#list-categorie>li>a {font-size: 1.5em;}
+	
+	.desc_modulo_black {
+		margin-top: 1em;
+		margin-right: 3em;
+	}
+	.desc_modulo_gray {
+		margin-top: 1em;
+		margin-right: 3em;
+	}
+
+	.materiali{
+		float:none;
+	    margin: 0% 0% 0% 0%;
+	}
+
+	.dimensioni{
+		float:none;
+	    margin: -30% 0% 0% 42%;
+	}
+
+	.prezzo{
+		float:none;
+	    margin: 0% 0% 0% 0%;
+	}
+	.colore {
+	 	float:none;
+	    margin: -11% 0% 0% 42%;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	#site-title a{
+		font-size:25px;
+		margin-left:10px;
+	}
+	
+    #mainmenu{display:none;}
+	
+    #mainmenu ul li{float: none;}
+	
+    .btn-responsive-menu{
+		display:block;
+		top: 4px;
+	}
+	
+	#mainmenu {background:none}
+	
+	#content{padding-top: 0;}
+	
+	  .modulo {
+	    width: 60%;
+	    margin: 2% 20%;
+	}
+	
+	  .modulo:nth-child(3n+1){margin-left: 20%;}
+	
+	  .modulo:nth-child(3n){margin-right: 20%;}
+				 
+	#header h1{
+		font-size: 1.6em;
+		font-variant: small-caps;
+		padding: 2.2em 0em 0.3em 0em;
+	}
+	
+	h2{font-size: 1.6em;}
+	
+	#list-categorie>li>a {font-size: 1.2em;}
+	
+	.desc_modulo_black {
+		margin-top: 1em;
+		margin-right: 4em;
+	}
+	.desc_modulo_gray {
+		margin-top: 1em;
+		margin-right: 4em;
+	}
+
+	.materiali{
+		float:none;
+	    margin: 0% 0% 0% 0%;
+	}
+
+	.dimensioni{
+		float:none;
+	    margin: -26% 0% 0% 42%;
+	}
+
+	.prezzo{
+		float:none;
+	    margin: 0% 0% 0% 0%;
+	}
+	.colore {
+	 	float:none;
+	    margin: -13% 0% 0% 42%;
+	}
+	
+}
+
+#salta a, #salta a:hover, #salta a:visited  
+ { 
+ position:absolute; 
+ left:0px; 
+ top:-500px; 
+ width:1px; 
+ height:1px; 
+ overflow:hidden;
+ } 
+  
+ #salta a:active 
+ { 
+ position:static; 
+ width:auto; 
+ height:auto; 
+ } 

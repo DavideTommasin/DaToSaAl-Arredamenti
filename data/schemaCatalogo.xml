@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="catalogo" type="Tcatalogo"/>
+
+<xsd:complexType name="Tcatalogo">
+	<xsd:sequence>
+		<xsd:element name="acconciatori" type="Tcategoria" minOccurs="0"/>
+		<xsd:element name="estetiche" type="Tcategoria" minOccurs="0"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="Tcategoria">
+	<xsd:sequence maxOccurs="unbounded">
+		<xsd:element name="oggetto" type="Toggetto"/>				
+	</xsd:sequence>	
+</xsd:complexType>
+
+
+<xsd:complexType name="Toggetto">
+	<xsd:sequence>
+		<xsd:element name="nome" type="xsd:string"/>
+		<xsd:element name="tipo" type="Ttipo"/>
+		<xsd:element name="dimensione" type="Tdimensioni"/>			
+		<xsd:element name="materiale" type="Tmateriale"/>
+		<xsd:element name="colore" type="xsd:string"/>
+		<xsd:element name="prezzo" type="Tprezzo"/>
+		<xsd:element name="descrizione" type="xsd:string"/>
+		<xsd:element name="immagine" type="Timmagine"/> <!-- rapprensenta il path dell'immagine -->
+	</xsd:sequence>
+	<xsd:attribute name="in_vista" type="xsd:boolean" default="false"/>
+	<xsd:attribute name="id" type="xsd:string" use="required"/> <!-- l'uso è richiesto, attenzione -->
+</xsd:complexType>
+
+<xsd:simpleType name="Ttipo">
+	<xsd:restriction base="xsd:string">
+		<xsd:enumeration value="Posti Lavoro"/>
+		<xsd:enumeration value="Poltrone"/>		 
+		<xsd:enumeration value="Lavaggi"/>
+		<xsd:enumeration value="Attesa"/>
+		<xsd:enumeration value="Reception"/>				
+		<xsd:enumeration value="Mobili-Service"/>
+		<xsd:enumeration value="Accessori"/>	
+		<xsd:enumeration value="Lettini"/>
+		<xsd:enumeration value="S.P.A"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<xsd:complexType name="Tdimensioni">
+	<xsd:sequence>
+		<xsd:element name="altezza" type="Tmisura"/>
+		<xsd:element name="lunghezza" type="Tmisura"/>
+		<xsd:element name="larghezza" type="Tmisura"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="Tmisura" mixed="true">
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:decimal">
+			<xsd:attribute name="um" type="xsd:string" default="cm"/>
+		</xsd:extension>
+	</xsd:simpleContent>
+</xsd:complexType>
+	
+<xsd:complexType name="Tmateriale">
+	<xsd:sequence maxOccurs="5">
+		<xsd:element name="nome" type="Tnome"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="Tnome">
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:string">
+			<xsd:attribute name="id_materiale" type="xsd:string" use="required"/> 
+		</xsd:extension>
+	</xsd:simpleContent>
+</xsd:complexType>
+
+<xsd:complexType name="Tprezzo">
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:decimal">
+			<xsd:attribute name="valuta" type="xsd:string" fixed="euro"/> <!-- attenzione, è fixed -->
+		</xsd:extension>
+	</xsd:simpleContent>
+</xsd:complexType>
+
+<xsd:complexType name="Timmagine">
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:string">
+			<xsd:attribute name="alt" type="xsd:string" use="required"/> <!-- per garanire l'accessibilità è required -->
+		</xsd:extension>
+	</xsd:simpleContent>
+</xsd:complexType>
+		
+</xsd:schema>
+
+			
+			

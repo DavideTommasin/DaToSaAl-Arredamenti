@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+<xsd:element name="utenti" type="Tutenti"/>
+
+<xsd:complexType name="Tutenti">
+	<xsd:sequence>
+			<xsd:element name="utente" type="Tutente" maxOccurs="unbounded"/>
+	</xsd:sequence>
+</xsd:complexType>
+	
+<xsd:complexType name="Tutente">
+	<xsd:sequence>
+		<xsd:element name="persona" type="Tpersona"/>
+		<xsd:element name="email" type="xsd:string" minOccurs="0"/> <!-- non necessario al fine della gestione utente -->
+		<xsd:element name="username" type="xsd:string"/>
+		<xsd:element name="password" type="Tpassword"/>	 	 
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:simpleType name="Tpassword">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[A-Za-z0-9]{8}"/>   <!-- restrizione per la password ESATTAMENTE 8 caratteri, NON SONO PERMESSI CARATTERI SPECIALI -->
+	</xsd:restriction>
+</xsd:simpleType>
+
+<xsd:complexType name="Tpersona">
+	<xsd:sequence>
+		<xsd:element name="nome" type="xsd:string"/>
+		<xsd:element name="cognome" type="xsd:string"/>
+		<xsd:element name="data_nascita" type="Tdata" minOccurs="0"/> <!-- non necessario al fine della gestione utente -->
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="Tdata">
+	<xsd:sequence>
+		<xsd:element name="giorno" type="xsd:integer"/>			
+		<xsd:element name="mese" type="xsd:integer"/>
+		<xsd:element name="anno" type="xsd:integer"/>
+	</xsd:sequence>		
+</xsd:complexType>
+
+</xsd:schema>
+		
+	

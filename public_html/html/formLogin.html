@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Login - DaToSaAl Arredamenti snc</title>
+		<meta name="title" content="Login - DaToSaAl Arredamenti s.n.c."/>
+		<meta name="author" content="Alberto Nicol&egrave;, Davide Tomasin, Guido Santi, Tommaso Zagni"/>
+		<meta name="description" content="Pagina per il login DaToSaAl Arredamenti s.n.c."/>
+		<meta name="keywords" content="arredamenti, parrucchiere, profumerie, estetiste"/>
+		<meta name="language" content="italian it"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link type="text/css" rel="stylesheet" href="../css/main.css" media="handheld, screen"/>
+		<link type="text/css" rel="stylesheet" href="../css/responsive.css" media="handheld, screen"/>
+		<link type="text/css" rel="stylesheet" href="../css/print.css" media="print"/>
+
+		<script type="text/javascript" src="../js/jquery-2.1.4.min.js" ></script>
+		<script type="text/javascript" src="../js/script.js" ></script>
+  </head>
+  <body>
+    <div id="loginContent" class="container">
+      <div id="loginResult">
+      </div>
+      <form id="loginForm" method="post" action="../../cgi-bin/login.cgi">
+        <fieldset>
+          <legend>Inserisci informazioni</legend>
+          <p>
+            <label xml:lang="en" for="username"><span xml:lang="en">Username</span></label>
+            <input type="text" title="inserisci username" tabindex="1" id="username" name="username" class="text" size="20" />
+          </p>
+          <p>
+            <label xml:lang="en" for="password"><span xml:lang="en">Password</span></label>
+           <input type="password" id="password" title="inserisci password" tabindex="2"  name="password" class="text" size="20" />
+          </p>
+          <p>
+            <button type="submit">
+             <span xml:lang="en">Login</span>
+            </button>
+          </p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
